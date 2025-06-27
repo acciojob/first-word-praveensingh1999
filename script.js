@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	if(s.length==0 || s.include(" ")){
+	if(s.length==0 || !s.include(" ")){
 		return s;
 	}
 	let ans=s.split(" ");
